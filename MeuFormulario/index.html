@@ -1,6 +1,37 @@
 <html>
     <head>
+        <title>Formulário</title>
+        <meta charset="utf-8">
     </head>
     <body>
+        <form>
+            <label>Nome:</label>
+            <input type="text" name="nome">
+            
+            <label>Endereço:</label>
+            <input type="text" name="endereco">
+            
+            <label>Estado:</label>
+            <select name="UF">
+                <option value="PB">Paraíba</option>
+                <option value="PE">Pernambuco</option>
+                <option value="RN">Rio G. do Norte</option>
+            </select>
+            
+            <label>Sexo:</label>
+            <input type="radio" name="sexo" value="M">Masculino
+            <input type="radio" name="sexo" value="F">Feminino
+            <input type="radio" name="sexo" value="O">Outro
+            
+            <label>Matérias Favoritas:</label>
+            <input type="checkbox" name="materia" value="PT">Português
+            <input type="checkbox" name="materia" value="MT">Matemática
+            <input type="checkbox" name="materia" value="JV">Java
+            <input type="checkbox" name="materia" value="PHP">PHP
+            
+            <label>Resumo de suas habilidades:</label>
+            <textarea></textarea>
+        
+        </form>
     </body>
 </html>
