@@ -1,0 +1,23 @@
+li{
+    display: inline;
+}
+
+ul{
+    list-style: none;
+}
+
+header{
+    border: 3px solid pink;
+}
+
+main{
+    border: 3px solid pink;
+}
+
+footer{
+    border: 3px solid pink;
+}
+
+nav{
+    border: 3px solid pink;
+}
