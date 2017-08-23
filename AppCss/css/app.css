@@ -1,0 +1,15 @@
+p{
+    color: aqua;
+    border: 3px solid Aquamarine;
+}
+
+h1{
+    color:cornflowerblue;
+    font-family: fantasy;
+    text-align: center;
+}
+
+p, main, footer{
+    text-align: center;
+    font-family: sans-serif;
+}
